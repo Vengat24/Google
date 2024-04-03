@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        body{
+            background-image: url(/Assignments/TEMPLATE/Google/google.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .head{
+            width: 98%;
+            height: 40px;
+            color: white;
+            text-shadow: 1px 1px 1px black;
+            display: flex;
+            justify-content: end;
+            align-items: end;
+            gap: 25px;
+        }
+        .head a{
+            text-decoration: none;
+            text-shadow: 1px 1px 1px black;
+
+            color: white;
+        }
+        .body{
+            width: 100%;
+            height: 600px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+        .body .shortcut{
+            display:flex ;
+            justify-content: space-between;
+            align-items: center;
+            width: 30%;
+            height: 50px;
+        }
+        .body .shortcut1{
+            background-color: rgb(255, 255, 255);
+            box-shadow: 2px 2px 2px black;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            border-radius: 50%;
+        }
+        .name h1{
+            color: white;
+            text-shadow: 2px 2px 2px black;
+            font-size: 100px;
+        }
+        .input{
+            box-shadow: 2px 2px 2px black;
+            background-color: rgb(255, 255, 255);
+            border: 1px solid black;
+            width: 40%;
+            height: 45px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 25px;
+        }
+        .input input{
+            width: 77%;
+            height: 40px;
+            border: none;
+        }
+        .input i{
+            padding: 2%;
+        }
+        .foot{
+            color: white;
+            text-shadow: 1px 1px 1px black;
+            height: 100px;
+            width: 98.5%;
+            padding-left: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .foot .content{
+            display: flex;
+            gap: 10px;
+        }
+        .foot .pen_cover{
+            color: black;
+            width: 30px;
+            height: 30px;
+            background-color: aquamarine;
+            box-shadow: 2px 2px 2px black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="head">
+        <a class="head-content" href="#">Gmail</a>
+        <a class="head-content" href="#">Images</a>
+        <i class="fa-solid fa-flask head-content" ></i>
+        <i class="fa-solid fa-grip head-content"></i>
+        <i class="fa-solid fa-user head-content"></i>
+    </div>
+    <div class="body">
+        <div class="name"><h1>Google</h1></div>
+        
+        <div class="input">
+            <i id="search" class="fa-solid fa-magnifying-glass body-content"></i>
+            <input type="text" placeholder="Search Google or Type a url">
+        
+        <i id="mic" class="fa-solid fa-microphone-lines body-content"></i>
+        <i id="len" class="fa-solid fa-camera body-content"></i>
+        </div>
+        <div id="shortcut" class="shortcut">
+            <div class="shortcut1"><div id="tele"><img src="./Tele.webp" alt="" width="40px" height="40px"></div></div>
+            <div class="shortcut1"><div id="insta"><img src="./gpt.webp" alt="" width="35px" height="35px" ></div></div>
+            <div class="shortcut1"><div id="what"><img src="./whatsapp.png" alt="" width="40px" height="40px"></div></div>
+            <div class="shortcut1"><div id="thread"><img src="./thread.webp" alt="" width="50px" height="50px"></div></div>
+            <div class="shortcut1"><div id="plus"><i class="fa-solid fa-plus plus"></i></div>
+        </div>
+    </div>
+    </div>
+    <div class="foot">
+        <div class="content">
+        <i class="fa-solid fa-link link"></i>
+        <h4>Photo by NASA Image Library</h4>
+        </div>
+        
+        <div class="pen_cover"><i class="fa-solid fa-pen pen"></i></div>
+    </div>
+</body>
+</html>
